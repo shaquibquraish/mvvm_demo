@@ -6,9 +6,9 @@ import kotlinx.coroutines.launch
 
 object Coroutines {
 
-    fun main(work: (() -> Unit)) =
+    fun main(work: suspend (() -> Unit)) =
         CoroutineScope(Main).launch {
-            work()
+                work()
         }
 
 

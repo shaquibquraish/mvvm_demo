@@ -1,4 +1,4 @@
-package net.simplifiedcoding.mvvmsampleapp.ui.auth
+package com.shaquibquraishi.kotlindemo.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
